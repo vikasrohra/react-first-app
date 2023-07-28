@@ -6,12 +6,14 @@
     <title>Namaste React</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">Not Rendered</div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        const heading = React.createElement('h1', {id: 'title'}, 'Namaste Everyone from React!');
+        console.log(heading);
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(heading);
+    </script>
 </body>
-<script>
-    const heading = document.createElement('h1');
-    heading.innerHTML = 'Namaste Everyone from JavaScript!';
-    const root = document.getElementById('root');
-    root.appendChild(heading);
-</script>
 </html>
