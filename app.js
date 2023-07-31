@@ -19,7 +19,7 @@ const Title4 = () => (
 const Title5 = () => {
     return <h1>Yet another React Functional Component</h1>
 };
-// React functional component
+// Component inside another component => Composing component
 const Container = () => {
   return (
     <>
