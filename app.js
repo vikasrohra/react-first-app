@@ -32,6 +32,7 @@ const Header = () => {
 const restrauntList = [
   {
     data: {
+      id: 1,
       name: "My Family Restraunt",
       image: "ee5f8e06b300efc07c9fe3f4df40dfc4",
       cuisines: ["South India", "North Indian"],
@@ -40,6 +41,7 @@ const restrauntList = [
   },
   {
     data: {
+      id: 2,
       name: "Domino's Pizza",
       image: "sno2ooxhnjkwldjkukmu",
       cuisines: ["Pizzas", "Italian"],
@@ -67,7 +69,7 @@ const Body = () => {
     <div className="restraunt-list">
       {
         restrauntList.map(restraunt => {
-          return <RestrauntCard {...restraunt.data} />
+          return <RestrauntCard {...restraunt.data} key={restraunt.data.id} />
         })
       }
     </div>
