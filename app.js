@@ -2,36 +2,91 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // React Element - single line
-const title1 = <h1>This is a single line React element</h1>;
-// React Element - multi line
-const title2 = <h1>This is a multi line React element</h1>;
-// React functional component
-const Title3 = () => {
-    return (
-        <h1>This is a React Functional Component</h1>
-    );
-}
-// React functional component
-const Title4 = () => (
-    <h1>This is another React Functional Component</h1>
+const Title = () => (
+  <a href="/">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNx76pUGIu1KXqWiqRHteqox-vTDYnsMp6PQ&usqp=CAU"
+      alt="logo"
+      className="logo"
+    />
+  </a>
 );
-// React functional component
-const Title5 = () => {
-    return <h1>Yet another React Functional Component</h1>
-};
+
 // Component inside another component => Composing component
-const Container = () => {
+const Header = () => {
+  return (
+    <div className="header">
+      <Title />
+      <div className="nav-links">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+const restrauntList = [
+  {
+    data: {
+      name: "My Family Restraunt",
+      image: "ee5f8e06b300efc07c9fe3f4df40dfc4",
+      cuisines: ["South India", "North Indian"],
+      rating: "3.6",
+    }    
+  },
+  {
+    data: {
+      name: "Domino's Pizza",
+      image: "sno2ooxhnjkwldjkukmu",
+      cuisines: ["Pizzas", "Italian"],
+      rating: "4.0",
+    }    
+  },
+];
+
+const RestrauntCard = ({image, name, cuisines, rating}) => {
+  return (
+    <div className="card">
+      <img
+        src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + image}
+        alt="card"
+      />
+      <h4>{rating}</h4>
+      <h2>{name}</h2>
+      <h3>{cuisines.join(", ")}</h3>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="restraunt-list">
+      {
+        restrauntList.map(restraunt => {
+          return <RestrauntCard {...restraunt.data} />
+        })
+      }
+    </div>
+  );
+};
+
+const Footer = () => {
+  return <h4>Footer</h4>;
+};
+
+const AppLayout = () => {
   return (
     <>
-      <h1 id="container">Namaste React</h1>
-      {title1}
-      {title2}
-      <Title3 />
-      {Title4()}
-      <Title5 />
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Container />);
+root.render(<AppLayout />);
