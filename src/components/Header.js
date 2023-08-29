@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
+import Logo from '../assets/img/foodvilla.png';
 
 const Title = () => (
   <a href="/">
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNx76pUGIu1KXqWiqRHteqox-vTDYnsMp6PQ&usqp=CAU"
+      src={Logo}
       alt="logo"
       className="logo"
     />
@@ -18,9 +21,9 @@ const Header = () => {
       <Title />
       <div className="nav-links">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
           <li>Cart</li>
         </ul>
       </div>
