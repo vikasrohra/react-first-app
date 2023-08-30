@@ -47,3 +47,7 @@
     margin: 10px;
     background-color: lightgray;
 }
+
+.restaurant {
+    display: flex;
+}
