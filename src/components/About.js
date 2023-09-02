@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react';
+import Profile from './Profile';
+import ProfileClass from './ProfileClass';
 
-const About = () => {
-  return (
-    <div>
-        <h1>About Us</h1>
-        <p>Description</p>
-    </div>
-  )
+class About extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
+    componentDidMount = () => {
+    }
+
+    render () {
+        return (
+            <div>
+                <h1>About Us</h1>
+                <p>Description</p>
+                <ProfileClass name={'First'} />       
+            </div>
+        )
+    }
 }
 
 export default About

@@ -9,6 +9,7 @@ import About from "./components/About";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
+import Profile from "./components/Profile";
 
 const AppLayout = () => {
   return (
@@ -25,14 +26,19 @@ const appRouter = createBrowserRouter([
     path: '/',
     element: <AppLayout />,
     errorElement: <Error />,
+    // Note: /{path} means from root (absolute route), so if we write /profile the http://localhost:1234/profile but we want it inside about hence remove /
     children: [     
       {
         path: '/',
         element: <Body />
       }, 
       {
-        path: '/about',
-        element: <About />
+        path: '/about', // OR path: 'about' => converted to parentPath/{path} (http://localhost:1234/about)
+        element: <About />,
+        children: [{
+          path: 'profile', // OR path: '/about/profile'
+          element: <Profile />
+        }]
       },
       {
         path: '/contact',
