@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+
 import { RESTAURANT_LIST } from "../constants";
 import RestaurantCard from './RestaurantCard';
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import {filterData} from '../utils/Helper';
 
 const Body = () => {
   const [allRestaurants, setAllRestaurants] = useState([]);
@@ -21,12 +23,6 @@ const Body = () => {
     setAllRestaurants(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     setFilteredRestaurants(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
   }
-
-  const filterData = (searchText, restaurants) => {
-    return restaurants.filter(restaurant => restaurant?.info?.name?.toLowerCase().includes(searchText.toLowerCase()));
-  } 
-
-  console.log("render");
 
   // Not render component (Early return)
   if(!allRestaurants) return null;  
