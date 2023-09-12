@@ -20,7 +20,7 @@ const Header = () => {
   const isOnline = useOnline();
 
   return (
-    <div className="header">
+    <div className="flex">
       <Title />
       <div className="nav-links">
         <ul>
