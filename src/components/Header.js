@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Logo from '../assets/img/foodvilla.png';
 import useOnline from "../utils/useOnline";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Title = () => (
   <a href="/">
@@ -22,6 +23,8 @@ const Header = () => {
 
   const {user} = useContext(UserContext);
 
+  const cartItems = useSelector(store => store.cart.items);
+
   return (
     <div className="flex">
       <Title />
@@ -31,7 +34,7 @@ const Header = () => {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/instamart">Instamart</Link></li>
-          <li>Cart</li>
+          <li><Link to="/cart">Cart - {cartItems.length} items</Link></li>
         </ul>
       </div>
       {isOnline ? "Online" : "Offline"}

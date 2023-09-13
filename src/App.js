@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useState } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import { Provider } from "react-redux";
 
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -12,6 +13,8 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Profile from "./components/Profile";
 import Shimmer from "./components/Shimmer";
 import UserContext from "./utils/UserContext";
+import store from "./utils/store";
+import Cart from "./components/Cart";
 // import Instamart from "./components/Instamart";
 
 const About = lazy(() => import("./components/About"));
@@ -24,11 +27,13 @@ const AppLayout = () => {
   });
 
   return (
-    <UserContext.Provider value={{user: user, setUser: setUser}}>
-      <Header />
-      <Outlet />
-      <Footer />
-    </UserContext.Provider>
+    <Provider store={store}>
+      <UserContext.Provider value={{ user: user, setUser: setUser }}>
+        <Header />
+        <Outlet />
+        <Footer />
+      </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -73,6 +78,10 @@ const appRouter = createBrowserRouter([
           </Suspense>
         ),
       },
+      {
+        path: '/cart',
+        element: <Cart />
+      }
     ],
   },
 ]);
