@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 
 import Logo from '../assets/img/foodvilla.png';
 import useOnline from "../utils/useOnline";
+import UserContext from "../utils/UserContext";
 
 const Title = () => (
   <a href="/">
@@ -19,6 +20,8 @@ const Header = () => {
 
   const isOnline = useOnline();
 
+  const {user} = useContext(UserContext);
+
   return (
     <div className="flex">
       <Title />
@@ -32,6 +35,7 @@ const Header = () => {
         </ul>
       </div>
       {isOnline ? "Online" : "Offline"}
+      <h1 className="font-bold text-red-300 p-2">{user.name}</h1>
       {!isLoggedIn && <button onClick={() => setIsLoggedIn(true)}>Login</button>}
       {isLoggedIn && <button onClick={() => setIsLoggedIn(false)}>Logout</button>}
     </div>
