@@ -43,6 +43,9 @@ const Body = () => {
   // Not render component (Early return)
   if (!allRestaurants) return null;
 
+    console.log(filteredRestaurants);
+
+
   return allRestaurants.length === 0 ? (
     <Shimmer />
   ) : (
