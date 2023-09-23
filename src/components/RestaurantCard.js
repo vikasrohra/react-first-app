@@ -2,7 +2,7 @@ import { IMG_CDN_URL } from "../constants";
 
 const RestaurantCard = ({cloudinaryImageId, avgRatingString, name, cuisines}) => {
   return (
-    <div className="card">
+    <div className="card" data-testid={"resCard"}>
       <img src={IMG_CDN_URL + cloudinaryImageId} alt="card" />
       <h4>{avgRatingString}</h4>
       <h2>{name}</h2>

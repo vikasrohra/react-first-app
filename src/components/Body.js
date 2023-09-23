@@ -43,9 +43,6 @@ const Body = () => {
   // Not render component (Early return)
   if (!allRestaurants) return null;
 
-    console.log(filteredRestaurants);
-
-
   return allRestaurants.length === 0 ? (
     <Shimmer />
   ) : (
@@ -53,6 +50,7 @@ const Body = () => {
       <div className="search-container">
         <input
           type="text"
+          data-testid="searchInput"
           className="search-input"
           placeholder="Search"
           value={searchText}

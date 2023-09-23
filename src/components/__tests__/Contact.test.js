@@ -4,6 +4,22 @@ import Contact from "../Contact";
 
 // describe is used to group multiple test cases
 describe("Contact us test cases", () => {
+    beforeAll(() => {
+        console.log("Before All");
+    });
+
+    beforeEach(() => {
+        console.log("Before Each");
+    });
+
+    afterAll(() => {
+        console.log("After All");
+    });
+
+    afterEach(() => {
+        console.log("After Each");
+    });
+
     it("Should load contact us component", () => {
         render(<Contact />); // We'll try to render this component on jsdom
         // Now we'll check weather that rendered component has heading or not

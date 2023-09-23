@@ -1,0 +1,828 @@
+[
+    {
+        "info": {
+            "id": "671212",
+            "name": "La Pino'z Pizza",
+            "cloudinaryImageId": "d20fdc8c86aa8bd0638f47dd013d46f9",
+            "locality": "Ulhasnagar",
+            "areaName": "Phase 4",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 3.5,
+            "feeDetails": {
+                "restaurantId": "671212",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 5700
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE",
+                        "fee": 2000
+                    }
+                ],
+                "totalFee": 7700
+            },
+            "parentId": "4961",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 57,
+                "lastMileTravel": 4.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "57 mins",
+                "lastMileTravelString": "4.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-09-24 05:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹699",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/la-pinoz-pizza-ulhasnagar-phase-4-mumbai-671212",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "203926",
+            "name": "Burger King",
+            "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            "locality": "Barave Road",
+            "areaName": "Kalyan",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Burgers",
+                "American"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "203926",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 13400
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE",
+                        "fee": 2000
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    }
+                ],
+                "totalFee": 15400
+            },
+            "parentId": "166",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 94,
+                "lastMileTravel": 10.5,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "94 mins",
+                "lastMileTravelString": "10.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 05:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "EVERY ITEM",
+                "subHeader": "@ ₹129"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/burger-king-barave-road-kalyan-mumbai-203926",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "556174",
+            "name": "Magic Wok Chinese & ETC",
+            "cloudinaryImageId": "ghltvu4y7gthvx1ahxzy",
+            "locality": "Janabai Mhatre Chawl",
+            "areaName": "Dombivli",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Chinese"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "556174",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 15400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 15400
+            },
+            "parentId": "334443",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 53,
+                "lastMileTravel": 12.8,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "53 mins",
+                "lastMileTravelString": "12.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/magic-wok-chinese-and-etc-janabai-mhatre-chawl-dombivli-mumbai-556174",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "452520",
+            "name": "Natural Ice Cream",
+            "cloudinaryImageId": "xac9fqcyraed1ifmq9qz",
+            "locality": "Kartap Road",
+            "areaName": "SATYAM SHIVAM COP",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "452520",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 8400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 8400
+            },
+            "parentId": "2093",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 6.3,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "27 mins",
+                "lastMileTravelString": "6.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Temporarily closed for delivery"
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/natural-ice-cream-kartap-road-satyam-shivam-cop-mumbai-452520",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "361264",
+            "name": "Wendy's Burgers",
+            "cloudinaryImageId": "f1aa621021a2826088089b89842d4e7c",
+            "locality": "Shivaji Udyog Nagar",
+            "areaName": "Dombivli East",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "American",
+                "Fast Food",
+                "Snacks",
+                "Beverages"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "361264",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 14400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 14400
+            },
+            "parentId": "972",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 11.9,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "49 mins",
+                "lastMileTravelString": "11.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 03:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/wendys-burgers-shivaji-udyog-nagar-dombivli-east-mumbai-361264",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "186151",
+            "name": "The Biryani Life",
+            "cloudinaryImageId": "glbyuzosobcsfopcgidy",
+            "locality": "Shivaji Udyog Nagar",
+            "areaName": "Dombivli East",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Biryani",
+                "Mughlai",
+                "Lucknowi",
+                "Hyderabadi",
+                "North Indian",
+                "Kebabs",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "186151",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 14400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 14400
+            },
+            "parentId": "8496",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 54,
+                "lastMileTravel": 11.9,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "54 mins",
+                "lastMileTravelString": "11.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 03:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-biryani-life-shivaji-udyog-nagar-dombivli-east-mumbai-186151",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "765156",
+            "name": "Roll Zone",
+            "cloudinaryImageId": "bc4b7b1104e02e8c481052b67969c11e",
+            "locality": "Kalyan",
+            "areaName": "Kalyan",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Fast Food"
+            ],
+            "feeDetails": {
+                "restaurantId": "765156",
+                "fees": [
+                    {
+                        "name": "ANCILLARY_SURGE_FEE",
+                        "fee": 2000
+                    },
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 10900
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    }
+                ],
+                "totalFee": 12900
+            },
+            "parentId": "778",
+            "avgRatingString": "--",
+            "sla": {
+                "deliveryTime": 79,
+                "lastMileTravel": 8.5,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "79 mins",
+                "lastMileTravelString": "8.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 04:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/roll-zone-kalyan-mumbai-765156",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "575035",
+            "name": "Veg Daawat by Behrouz",
+            "cloudinaryImageId": "arrvdheuquh78dcalpel",
+            "locality": "Shivaji Udyog Nagar",
+            "areaName": "Dombivli East",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Biryani",
+                "Mughlai",
+                "Lucknowi",
+                "Hyderabadi",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "575035",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 14400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 14400
+            },
+            "parentId": "344904",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 55,
+                "lastMileTravel": 11.9,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "55 mins",
+                "lastMileTravelString": "11.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 03:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/veg-daawat-by-behrouz-shivaji-udyog-nagar-dombivli-east-mumbai-575035",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "263710",
+            "name": "Pure Veg Meals by Lunchbox",
+            "cloudinaryImageId": "k2w3fmufmpbhuogacdi1",
+            "locality": "Shivaji Udyog Nagar",
+            "areaName": "Dombivli East",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "263710",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 14400
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 14400
+            },
+            "parentId": "21938",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 11.9,
+                "serviceability": "SERVICEABLE_WITH_BANNER",
+                "slaString": "49 mins",
+                "lastMileTravelString": "11.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextOpenTimeMessage": "Currently not taking orders for this location",
+                "nextCloseTime": "2023-09-24 03:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-52b2a9d8-b95d-405a-a13b-f6cb40462d84"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pure-veg-meals-by-lunchbox-shivaji-udyog-nagar-dombivli-east-mumbai-263710",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+]
